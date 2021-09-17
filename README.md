@@ -1,14 +1,14 @@
 # Assignment
-Build a react.js application that is styled to match the provided design, and dynamically display the provided JavaScript data.
+Build a single-page storefront using CSS, HTML, and JavaScript that is styled to match the provided design, and that dynamically displays the provided JavaScript data.
 
 ## Instructions
-- Timebox your project to at maximum *four hours*, however you can submit earlier if you finish under four hours -- we don't expect you to finish, get as much done as you can.
-- If any part of the requirements are unclear, reach out to your contact at Points and ask questions.
-- Upload your project to your personal Github profile and share the link with your contact at Points. Alternatively, you can share a zipped (compressed) folder of your relevant project files.
+- Timebox your project to at maximum *four hours*, however you can submit earlier -- it's not necessary that you finish, just get as much done as you can.
+- If any part of the requirements are unclear, reach out to your contact at Points.
+- Upload your project to your personal Github profile and share the link with your contact at Points. Alternatively, you can share a zipped (compressed) folder of the relevant project files.
 
 ## Requirements
-- Code your application to match the provided design: "wdps_challenge__design.png"
-- You can use the toolchain "create-react-app", but no other development tools or libraries.
+- Code your storefront to match the provided design: "wdps_challenge__design.png"
+- Please refrain from using tools or libraries e.g. jQuery, Bootstrap
 - The design does not surface the CSS e.g. font, spacing, etc. so you're expected to interpret these specifications in the design to the best of your ability.
 - Use default cross-browser fonts, like Arial, Verdana, Georgia.
 - Code for modern browsers, don't worry about IE11.
