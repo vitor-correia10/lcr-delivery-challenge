@@ -16,8 +16,8 @@ Build a single-page storefront using CSS, HTML, and JavaScript that is styled to
 - Code using responsive design best practises.
 
 ### Functionality
-- Render the contents of the provided JavaScript file cardData.js into the 1x3 cards grid, include the functionality:
+- Use the contents of the provided JavaScript file cardData.js and display that data into the 1x3 cards grid, include the functionality:
     - Add UI control above the cards to filter cards by type: buy, gift, or transfer, and render the corresponding data type properties into each card.
-    - Add UI control above the cards to sort card options by lowest to highest cost, and highest to lowest.
+    - Extra: Add UI control above the cards to sort card options by lowest to highest cost, and highest to lowest.
 - In the payment form, use placeholder copy for default dropdown option.
 - In the Order Summary aside, dynamically render the selected card's data as values for elements "Total miles" and "Total cost".
