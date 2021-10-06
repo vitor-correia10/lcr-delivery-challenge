@@ -1,5 +1,5 @@
 # Assignment
-Build a single-page storefront using CSS, HTML, and JavaScript that is styled to match the provided design, and that dynamically displays the provided JavaScript data.
+You have the option to build a single-page storefront using CSS, HTML, and vanilla JavaScript, OR react.js - you can choose to use a framework or vanilla JS. Style the solution to match the provided design, and dynamically display the provided JavaScript data.
 
 ## Instructions
 - Timebox your project to at maximum *four hours*, however you can submit earlier -- it's not necessary that you finish, just get as much done as you can.
@@ -8,7 +8,7 @@ Build a single-page storefront using CSS, HTML, and JavaScript that is styled to
 
 ## Requirements
 - Code your storefront to match the provided design: "wdps_challenge__design.png"
-- Please refrain from using tools or libraries e.g. jQuery, Bootstrap
+- Please refrain from using additional tools or libraries e.g. jQuery, Bootstrap
 - The design does not surface the CSS e.g. font, spacing, etc. so you're expected to interpret these specifications in the design to the best of your ability.
 - Use default cross-browser fonts, like Arial, Verdana, Georgia.
 - Code for modern browsers, don't worry about IE11.
