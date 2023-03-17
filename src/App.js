@@ -1,13 +1,13 @@
 import './index.css'
 
-import { Box } from './components/Box'
 import { Header } from './components/Header'
+import { Main } from './components/Main'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Box />
+      <Main />
     </div>
   );
 }

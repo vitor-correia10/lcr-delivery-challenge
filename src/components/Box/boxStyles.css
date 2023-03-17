@@ -1,4 +1,4 @@
-section {
+.buttons {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -7,7 +7,7 @@ section {
 
 /*tablet or above*/
 @media (min-width: 600px) {
-  section {
+  .buttons {
     flex-direction: row;
   }
 }
