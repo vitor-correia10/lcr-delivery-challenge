@@ -15,33 +15,33 @@ export const FormFields = () => {
         <label for="cardnumber">Card Number</label>
         <input id="cardnumber" type="text" pattern="[0-9]*" inputmode="numeric" required></input>
       
-        <label for="expirationdate">Expiration (mm/yy)</label>
-        <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric" required></input>
+        <label for="expirationdate">Expiration date</label>
+        <input id="expirationdate" class="formSmallField" placeholder="MMYY" type="text" pattern="[0-9]*" inputmode="numeric" required></input>
 
         <label for="securitycode">CVV</label>
-        <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric" required></input>
+        <input id="securitycode" class="formSmallField" type="text" pattern="[0-9]*" inputmode="numeric" required></input>
       
         <h2 class="billingAddress">Billing address</h2>
         <label for="streetaddress">Street Address</label>
-        <input id="streetaddress" type="text" required></input>
+        <input id="streetaddress" class="formMediumField" type="text" required></input>
 
         <label for="aptnumber">Apt, Suite, Unit Number (Optional)</label>
-        <input id="aptnumber" type="text"></input>
+        <input id="aptnumber" class="formMediumField" type="text"></input>
 
         <label for="citytown">City / Town</label>
-        <input id="citytown" type="text" required></input>
+        <input id="citytown" class="formMediumField" type="text" required></input>
 
         <label for="citytown">City / Town</label>
-        <input id="citytown" type="text" required></input>
+        <input id="citytown" class="formMediumField" type="text" required></input>
 
         <label for="country">Country</label>
-        <select id="country" required>
+        <select id="country" class="formMediumField" required>
           <option value="">Select a country</option>
           <option value="canada">Canada</option>
         </select>
       
         <label for="province">Province</label>
-        <select id="province" required>
+        <select id="province" class="formMediumField" required>
           <option value="">Select a state or province</option>
           <option value="al">Alberta</option>
           <option value="bc">British Columbia</option>
@@ -50,20 +50,22 @@ export const FormFields = () => {
         </select>
 
         <label for="zipcode">Zip / Postal code</label>
-        <input id="zipcode" type="text" required></input>
+        <input id="zipcode" class="formMediumField" type="text" required></input>
 
         <label for="phonenumber">Phone number</label>
-        <input id="phonenumber" type="text" pattern="[0-9]*" inputmode="numeric" required></input>
+        <input id="phonenumber" class="formMediumField" type="text" pattern="[0-9]*" inputmode="numeric" required></input>
       
         <label for="email">Email receipt to</label>
-        <input id="email" type="email" required></input>
+        <input id="email" type="email" class="formMediumField" required></input>
 
-        <input id="checkbox" type="checkbox" />
-        <label for="checkbox"> 
-          I agree to the <a href="#">Terms and Conditions</a>
+
+        <label for="checkbox" class="checkboxField">
+          <input id="checkbox" type="checkbox" />
+          I agree to the  
+          <a href="#"> terms & Conditions</a>
         </label>
 
-        <input type="submit" value="Submit"></input>
+        <input class="btnSubmit" type="submit" value="Buy Miles"></input>
       </form>
     )
 }

@@ -16,6 +16,7 @@ code {
 :root {
   --black: #222222;
   --white: #F2F2F2;
+  --lightgray: #bbbaba;
   --grid-columns: 1fr;
   --border-radius: 5px;
   --grid-columns-form: 1fr;
@@ -24,7 +25,6 @@ code {
 /* Tablet style*/
 @media (min-width: 600px) {
   :root {
-    --primary-color: blue;
     --grid-columns: 1fr 1fr 1fr;
     --grid-columns-form: 2fr 1fr;
   }
