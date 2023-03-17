@@ -18,6 +18,7 @@ code {
   --white: #F2F2F2;
   --grid-columns: 1fr;
   --border-radius: 5px;
+  --grid-columns-form: 1fr;
 }
 
 /* Tablet style*/
@@ -25,13 +26,10 @@ code {
   :root {
     --primary-color: blue;
     --grid-columns: 1fr 1fr 1fr;
+    --grid-columns-form: 2fr 1fr;
   }
   body {
     width: 80%;
     margin: auto;
   }
-}
-
-/* Desktop style*/
-@media (min-width: 1200px) {
 }

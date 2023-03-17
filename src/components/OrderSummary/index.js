@@ -9,7 +9,7 @@ export const OrderSummary = () => {
         <hr />
 
         <p>
-          total miles
+          Total miles
           <span>2000</span>
         </p>
         <p>
