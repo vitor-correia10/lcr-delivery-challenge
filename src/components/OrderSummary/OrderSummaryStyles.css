@@ -4,6 +4,15 @@ aside {
   padding: 1.8rem;
 }
 
+aside p {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside p span{
+  font-weight: 700;
+}
+
 hr {
   border-top: 1px solid lightgray;
 }

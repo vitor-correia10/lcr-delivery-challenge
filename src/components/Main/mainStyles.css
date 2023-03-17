@@ -1,4 +1,38 @@
-main {
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.milesButton {
+  width: 200px;
+  margin: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid var(--black);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.milesButton.active {
+  background-color: var(--black);
+  color: var(--white)
+}
+
+.milesButton .cost {
+  font-weight: 700;
+}
+
+/*tablet or above*/
+@media (min-width: 600px) {
+  .buttons {
+    flex-direction: row;
+  }
+}
+
+/* form */
+.formSection {
   margin-top: 3rem;
   display: grid;
   grid-gap: 2rem;

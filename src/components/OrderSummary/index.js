@@ -2,7 +2,8 @@ import './OrderSummaryStyles.css'
 
 import React from 'react'
 
-export const OrderSummary = () => {
+export const OrderSummary = ({selectedMile}) => {
+    const cost = `$ ${selectedMile.cost}.00`
     return (
       <aside>
         <h2>Order summary</h2>
@@ -10,17 +11,17 @@ export const OrderSummary = () => {
 
         <p>
           Total miles
-          <span>2000</span>
+          <span>{selectedMile.amount}</span>
         </p>
         <p>
           GST/HST
-          <span>$20.00</span>
+          <span>{selectedMile.amount && '$20.00'}</span>
         </p>
         <hr />
 
         <p>
           Total cost
-          <span>$197.00</span>
+          <span>{selectedMile.amount ? cost : ' $0.00'}</span>
         </p>
 
       </aside>
