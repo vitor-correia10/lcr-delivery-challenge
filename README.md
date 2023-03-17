@@ -25,3 +25,11 @@ Please build a single-page storefront using either HTML, CSS, and vanilla JavaSc
 - Use the contents of the provided JavaScript file cardData.js to display the Buy feature data in the 1x3 cards grid.
 - In the Order Summary aside, dynamically render the selected card's data as values for elements "Total miles" and "Total cost".
 - In the payment form, functionality to populate country and respective provinces/states is excluded from scope.
+
+### Implantation
+- It was developed with React and CSS.
+- Display the Buy feature data with dynamically render.
+- Be able to navigate through the keyboard.
+- Semantics applied with header, h1, body, main, sections and others HTML tags.
+- Style separated by component.
+- All mock was implemented and tested in different device sizes.
