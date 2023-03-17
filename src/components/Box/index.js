@@ -7,13 +7,13 @@ import { cardData } from '../../cardData'
 
 export const Box = () => {
     return (
-      <>
-        {cardData.map((item) => (
-          <div key={item.amount} class="milesBox">
+      <section>
+        {cardData.map((item, index) => (
+          <div key={index} class="milesBox">
             <p>Buy {item.amount} miles</p>
-            <p>{item.cost}</p>
+            <p>${item.cost}.00</p>
           </div>
         ))}
-      </>
+      </section>
     )
 }
