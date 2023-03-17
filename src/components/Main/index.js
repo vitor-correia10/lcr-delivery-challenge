@@ -12,8 +12,8 @@ export const Main = () => {
       <>
         <Box />
         <main>
-          <FormFields />
           <OrderSummary />
+          <FormFields />
         </main>
       </>
     )

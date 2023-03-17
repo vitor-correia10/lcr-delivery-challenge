@@ -19,9 +19,14 @@
   text-align: center;
   border: 1px solid var(--black);
   border-radius: var(--border-radius);
+  cursor: pointer;
 }
 
-.milesBox:first-of-type {
+.milesBox.active {
   background-color: var(--black);
   color: var(--white)
+}
+
+.milesBox .cost {
+  font-weight: 700;
 }
