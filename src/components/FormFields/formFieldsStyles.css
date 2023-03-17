@@ -3,7 +3,7 @@ input[type=email],
 select {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 0.25rem 0 1.5rem;
   display: inline-block;
   border: 1px solid var(--lightgray);
   box-sizing: border-box;
@@ -20,6 +20,16 @@ select.formMediumField {
   width: 75%;
   display: block;
 }
+
+#country {
+  background: transparent;
+}
+
+#province {
+  background: var(--white);
+  border: none;
+}
+
 
 /*start checkbox*/
 .checkboxField {
@@ -54,6 +64,7 @@ input[type="checkbox"]:checked::before {
 }
 /*end checkbox*/
 
+
 /*start submit button*/
 .btnSubmit {
   display: block;
@@ -78,9 +89,9 @@ input[type="checkbox"]:checked::before {
 }
 /*end submit button*/
 
+
 /*start anchor terms&condition*/
 .checkboxField a {
   margin: 5px;
   color: inherit;
 }
-/*end anchor terms&condition*/

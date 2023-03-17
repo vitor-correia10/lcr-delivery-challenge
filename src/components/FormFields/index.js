@@ -62,7 +62,7 @@ export const FormFields = () => {
         <label for="checkbox" class="checkboxField">
           <input id="checkbox" type="checkbox" />
           I agree to the  
-          <a href="#"> terms & Conditions</a>
+          <a href="#"> terms &amp; Conditions</a>
         </label>
 
         <input class="btnSubmit" type="submit" value="Buy Miles"></input>
