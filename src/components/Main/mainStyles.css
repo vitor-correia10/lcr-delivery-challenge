@@ -1,0 +1,10 @@
+main {
+  margin-top: 3rem;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: var(--grid-columns-form);
+}
+
+
+
+

@@ -1,0 +1,9 @@
+aside {
+  background: var(--white);
+  height: 200px;
+  padding: 1.8rem;
+}
+
+hr {
+  border-top: 1px solid lightgray;
+}
