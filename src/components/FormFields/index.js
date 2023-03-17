@@ -63,7 +63,7 @@ export const FormFields = () => {
           I agree to the <a href="#">Terms and Conditions</a>
         </label>
 
-        <button type="submit">Buy Miles</button>
+        <input type="submit" value="Submit"></input>
       </form>
     )
 }

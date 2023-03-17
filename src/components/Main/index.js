@@ -1,14 +1,14 @@
 import React from 'react'
 
 import { Box } from '../Box'
-import { Form } from '../Form'
+import { FormFields } from '../FormFields'
 
 export const Main = () => {
     return (
       <>
         <Box />
         <main>
-          <Form />
+          <FormFields />
         </main>
       </>
     )
